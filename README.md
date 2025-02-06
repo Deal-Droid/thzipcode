@@ -15,7 +15,7 @@ Raw data is sourced from [kongvut/thai-province-data](https://github.com/kongvut
 
 ## Output Formats
 
-### Complete Format (thailand_province_flat.json)
+### Complete Format (thai_zipcode_flat.json)
 ```json
 {
     "th_data": [
@@ -33,7 +33,7 @@ Raw data is sourced from [kongvut/thai-province-data](https://github.com/kongvut
 }
 ```
 
-### Simplified Format (thailand_province_zipcodes.json)
+### Simplified Format (thai_zipcode_to_province.json)
 ```json
 {
     "th_data": [

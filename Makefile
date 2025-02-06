@@ -1,6 +1,6 @@
 .PHONY=general
 general:
-	uv run python simplify_thai_zipcode_raw.py
+	uv run python simplify_thai_zipcode_flat.py
 
 .PHONY=province
 province:

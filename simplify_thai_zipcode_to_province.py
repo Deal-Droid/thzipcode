@@ -19,6 +19,5 @@ for province in data:
                 })
                 zip_codes.add(zip_code)
 
-# Save the flattened data with unique zip codes to a new JSON file
-with open('thailand_province_zipcodes.json', 'w', encoding='utf-8') as f:
+with open('thai_zipcode_to_province.json', 'w', encoding='utf-8') as f:
     json.dump(flat_data, f, ensure_ascii=False, indent=4)

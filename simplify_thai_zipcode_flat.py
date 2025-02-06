@@ -1,6 +1,5 @@
 import json
 
-# Load the nested JSON data
 with open('thai_zipcode_raw.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
@@ -18,6 +17,5 @@ for province in data:
                 'tombon_en': tambon['name_en']
             })
 
-# Save the flattened data to a new JSON file
-with open('thailand_province_flat.json', 'w', encoding='utf-8') as f:
+with open('thai_zipcode_flat.json', 'w', encoding='utf-8') as f:
     json.dump(flat_data, f, ensure_ascii=False, indent=4)
